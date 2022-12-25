@@ -1,0 +1,43 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Sara-FCTB/2.16.26.105": {
+        "runtime": {
+          "lib/net35/FastColoredTextBox.dll": {
+            "assemblyVersion": "2.16.26.100",
+            "fileVersion": "2.16.26.100"
+          }
+        }
+      },
+      "UTF.Unknown/2.5.0": {
+        "runtime": {
+          "lib/netcoreapp3.0/UtfUnknown.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.630.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Sara-FCTB/2.16.26.105": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7orfEMYdMy8CGwsQqmlYBrLGXwgDNZicxkcsISUPxUI/UfcQmdAM2XG5O3LNDpwugMMx2SAJyJeK247eLBaNNQ==",
+      "path": "sara-fctb/2.16.26.105",
+      "hashPath": "sara-fctb.2.16.26.105.nupkg.sha512"
+    },
+    "UTF.Unknown/2.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wBnSKuLQG3+tm8oAPUjXDr94fdwlxZIqaO1gyvocaz9TLLz44fbLz7toE7I0yto96xepjshqHCOd9PWIsDCZzA==",
+      "path": "utf.unknown/2.5.0",
+      "hashPath": "utf.unknown.2.5.0.nupkg.sha512"
+    }
+  }
+}

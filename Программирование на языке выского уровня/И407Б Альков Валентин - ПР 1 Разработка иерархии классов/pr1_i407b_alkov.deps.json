@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "pr1_i407b_alkov/1.0.0": {
+        "runtime": {
+          "pr1_i407b_alkov.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "pr1_i407b_alkov/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

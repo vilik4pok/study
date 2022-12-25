@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1618686561 source:d:\downloads\vyz\yavu\pr2\main.cpp
+	"string.h"
+	"identifier.h"
+	"decimal.h"
+	<iostream>
+
+1618687284 d:\downloads\vyz\yavu\pr2\string.h
+
+1618684392 source:d:\downloads\vyz\yavu\pr2\string.cpp
+	"string.h"
+	<iostream>
+	<cstring>
+
+1618687840 source:d:\downloads\vyz\yavu\pr2\decimal.cpp
+	"decimal.h"
+	<cstring>
+	<iostream>
+
+1618687766 d:\downloads\vyz\yavu\pr2\decimal.h
+	"string.h"
+
+1618688462 d:\downloads\vyz\yavu\pr2\identifier.h
+	"string.h"
+
+1618687221 source:d:\downloads\vyz\yavu\pr2\identifier.cpp
+	"identifier.h"
+	<cstring>
+	<iostream>
+

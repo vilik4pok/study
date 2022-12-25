@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <StartupObject>ConsoleApp1.Program</StartupObject>
+    <AssemblyName>pr1_i407b_alkov</AssemblyName>
+    <RootNamespace>ConsoleApp1</RootNamespace>
+  </PropertyGroup>
+
+</Project>

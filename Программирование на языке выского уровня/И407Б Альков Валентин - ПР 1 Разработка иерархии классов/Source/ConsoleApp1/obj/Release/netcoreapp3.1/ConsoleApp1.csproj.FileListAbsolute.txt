@@ -1,0 +1,14 @@
+C:\Users\basic\Downloads\university\visual\pr1_final\ConsoleApp1\obj\Release\netcoreapp3.1\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\basic\Downloads\university\visual\pr1_final\ConsoleApp1\obj\Release\netcoreapp3.1\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\basic\Downloads\university\visual\pr1_final\ConsoleApp1\obj\Release\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\basic\Downloads\university\visual\pr1_final\ConsoleApp1\obj\Release\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
+C:\Users\basic\Downloads\university\visual\pr1_final\ConsoleApp1\obj\Release\netcoreapp3.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\basic\Downloads\university\visual\pr1_final\ConsoleApp1\obj\Release\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache
+C:\Users\basic\Downloads\university\visual\pr1_final\ConsoleApp1\bin\Release\netcoreapp3.1\pr1_i407b_alkov.exe
+C:\Users\basic\Downloads\university\visual\pr1_final\ConsoleApp1\bin\Release\netcoreapp3.1\pr1_i407b_alkov.deps.json
+C:\Users\basic\Downloads\university\visual\pr1_final\ConsoleApp1\bin\Release\netcoreapp3.1\pr1_i407b_alkov.runtimeconfig.json
+C:\Users\basic\Downloads\university\visual\pr1_final\ConsoleApp1\bin\Release\netcoreapp3.1\pr1_i407b_alkov.runtimeconfig.dev.json
+C:\Users\basic\Downloads\university\visual\pr1_final\ConsoleApp1\bin\Release\netcoreapp3.1\pr1_i407b_alkov.dll
+C:\Users\basic\Downloads\university\visual\pr1_final\ConsoleApp1\bin\Release\netcoreapp3.1\pr1_i407b_alkov.pdb
+C:\Users\basic\Downloads\university\visual\pr1_final\ConsoleApp1\obj\Release\netcoreapp3.1\pr1_i407b_alkov.dll
+C:\Users\basic\Downloads\university\visual\pr1_final\ConsoleApp1\obj\Release\netcoreapp3.1\pr1_i407b_alkov.pdb

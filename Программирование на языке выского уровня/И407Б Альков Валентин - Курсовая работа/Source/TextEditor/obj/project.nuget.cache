@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "MN5zNMJjy2eZeQdQZayvK4NqiZnyehIdR9D8+lbDPchKnHTCvHYO7nK8GxQZ5rQRx8d6/wBxLKxR8NdM7j0Klw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vilik4pok\\source\\repos\\kurs1\\TextEditor\\TextEditor\\TextEditor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vilik4pok\\.nuget\\packages\\sara-fctb\\2.16.26.105\\sara-fctb.2.16.26.105.nupkg.sha512",
+    "C:\\Users\\vilik4pok\\.nuget\\packages\\utf.unknown\\2.5.0\\utf.unknown.2.5.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"Sara-FCTB 2.16.26.105\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \"net5.0-windows7.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "Sara-FCTB",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
+}

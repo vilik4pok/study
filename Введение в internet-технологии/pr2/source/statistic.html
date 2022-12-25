@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <title>Статистика</title>
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Статья</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="statistic.html">Статистика</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="notes.html">Заметки</a>
+                    </li>
+					<li class="nav-item">
+						<a class="nav-link" href="anketa.php">Анкета</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="ajax.html">Внешнее API</a>
+					</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="m-auto stat col-5 table-responsive">
+      <h1 class="text-center mb-1">Популярность</h1>
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th class="text-center">Название</th>
+                    <th class="text-center">Кол-во читателей</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-center">Безупречный отец</td>
+                    <td class="text-center ">62349</td>
+                </tr>
+                <tr>
+                    <td class="text-center">Дворянство</td>
+                    <td class="text-center ">73701</td>
+                </tr>
+				<tr>
+                    <td class="text-center">Поднятие уровня в одиночку</td>
+                    <td class="text-center ">454662</td>
+                </tr>
+				<tr>
+                    <td class="text-center">Эпоха Сверхлюдей</td>
+                    <td class="text-center ">35002</td>
+                </tr>
+				<tr>
+                    <td class="text-center">Элисед</td>
+                    <td class="text-center ">125969</td>
+                </tr>
+                <tr>
+                    <td class="text-center">Башня Бога</td>
+                    <td class="text-center ">139621</td>
+                </tr>
+				<tr>
+                    <td class="text-center">Ублюдок FFF-ранга</td>
+                    <td class="text-center ">144236</td>
+                </tr>
+				<tr>
+                    <td class="text-center">Милый дом</td>
+                    <td class="text-center ">323845</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="stat col-9 m-auto">
+    <canvas id="myChart" width="1600" height="500"></canvas>
+    <button class="changeColor btn btn-outline-danger mt-4" data-color="rgba(255, 99, 132, 0.2)" data-border="rgba(255, 99, 132, 1)" type="button">красный</button>
+    <button class="changeColor btn btn-outline-success mt-4" data-color="rgba(75, 192, 192, 0.2)" data-border="rgba(75, 192, 192, 1)" type="button">зелёный</button>
+    <button class="changeColor btn btn-outline-info mt-4" data-color="rgba(54, 162, 235, 0.2)" data-border="rgba(54, 162, 235, 1)" type="button">синий</button>
+	
+    </div>
+    <script>
+		var ctx = document.getElementById('myChart').getContext('2d');
+		var myChart = new Chart(ctx, {
+			type: 'bar',
+			data: {
+				labels: ['Безупречный отец', 'Дворянство', 'Поднятие уровня в одиночку', 'Эпоха Сверхлюдей', 'Элисед', 'Башня Бога', 'Ублюдок FFF-ранга', 'Милый дом'],
+				datasets: [{
+					label: 'Кол-во читателей',
+					data: [62349, 73701, 454662, 35002, 125969, 139621, 144236, 323845],
+					backgroundColor: 'rgba(255, 99, 132, 0.2)', 
+					borderColor: 'rgba(255, 99, 132, 1)',
+					borderWidth: 1
+				}]
+			}
+		});
+		
+		$('.changeColor').click(function(){
+			myChart.data.datasets[0].backgroundColor = $(this).attr('data-color');
+			myChart.data.datasets[0].borderColor = $(this).attr('data-border');
+			myChart.update();
+		})
+    </script>
+    <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3 pt-3 border-top">
+            <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Статья</a></li>
+            <li class="nav-item"><a href="statistic.html" class="nav-link px-2 text-muted">Статистика</a></li>
+            <li class="nav-item"><a href="notes.html" class="nav-link px-2 text-muted">Заметки</a></li>
+          </ul>
+          <p class="text-center text-muted"><a name="footer"></a>©vilik4pok</p>
+        </footer>
+    </div>
+</body>
+</html>

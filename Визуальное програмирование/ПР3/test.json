@@ -1,0 +1,92 @@
+[
+    [
+        {
+            "tag" : "path",
+            "value": ""
+        },
+        {
+            "tag" : "title",
+            "value": "Song1"
+        },
+        {
+            "tag" : "duration",
+            "value": "02:23"
+        },
+        {
+            "tag" : "year",
+            "value": "2022"
+        },
+        {
+            "tag" : "genre",
+            "value": "pop"
+        },
+        {
+            "tag" : "artist",
+            "value": "vilik4pok"
+        },
+        {
+            "tag" : "playing",
+            "value": "false"
+        }
+    ],
+    [
+        {
+            "tag" : "path",
+            "value": ""
+        },
+        {
+            "tag" : "title",
+            "value": "Song2"
+        },
+        {
+            "tag" : "duration",
+            "value": "02:23"
+        },
+        {
+            "tag" : "year",
+            "value": "2022"
+        },
+        {
+            "tag" : "genre",
+            "value": "pop"
+        },
+        {
+            "tag" : "artist",
+            "value": ""
+        },
+        {
+            "tag" : "playing",
+            "value": "false"
+        }
+    ],
+    [
+        {
+            "tag" : "path",
+            "value": ""
+        },
+        {
+            "tag" : "title",
+            "value": "Song3"
+        },
+        {
+            "tag" : "duration",
+            "value": "02:23"
+        },
+        {
+            "tag" : "year",
+            "value": "2022"
+        },
+        {
+            "tag" : "genre",
+            "value": "pop"
+        },
+        {
+            "tag" : "artist",
+            "value": ""
+        },
+        {
+            "tag" : "playing",
+            "value": "false"
+        }
+    ]
+]

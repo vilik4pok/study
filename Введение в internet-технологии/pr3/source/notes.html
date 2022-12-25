@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+		<link href="style.css" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<title>Заметки</title>
+	</head>
+	<body>
+		<nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
+			<div class="container-fluid">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				   <ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="index.html">Статья</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="statistic.html">Статистика</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" href="notes.html">Заметки</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="anketa.php">Анкета</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="ajax.html">Внешнее API</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<h1 class="text-center mb-1">Главные герои</h1>
+		<div id="sortable" class="row">
+			<div class="col">
+				<div class="card">
+					<img src="source/z1.webp" class="card-img-top" alt="CardLogo">
+					<div class="card-body">
+						<h5 class="card-title">Но Гаджанг - Безупречный отец</h5>
+						<p class="card-text">Но Гаджанг - сильный, преданный своему делу и скромный человек, очень уважающий боевые искусства. После смерти своей очаровательной жены этот наемник просто хочет легкой работы, которая позволит ему стать хорошим отцом для своих трех маленьких детей. Он даже счастлив нести караульную службу и отбиваться от бойцов-любителей, если это означает, что он может безопасно возвращаться домой каждую ночь. Но когда жуткий культ начинает красть детей из города, Гаджанг должен принять вызов и раскрыть свой истинный воинский потенциал.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<img src="source/z2.webp" class="card-img-top" alt="CardLogo">
+					<div class="card-body">
+						<h5 class="card-title">Кадис Этрама Ди Рейзел - Дворянство</h5>
+						<p class="card-text">или просто Рей – протагонист и главный герой манхвы Ноблесс. Он представитель расы Благородных, чьей родиной является Лукедония. Он единственный носитель титула Истинный Ноблесс, что говорит о нем, как о тайном защитнике всей расы. Он также может выступать как судья и, если понадобится, как палач. Он является Мастером Франкенштейна; в настоящий момент систематически посещает старшую школу Ё Ран, чтобы узнать больше о человеческом мире. </p>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<img src="source/z3.webp" class="card-img-top" alt="CardLogo">
+					<div class="card-body">
+						<h5 class="card-title">Сон Джин-Ву - Поднятие уровня в одиночку</h5>
+						<p class="card-text">Сон Джин-Ву (кор. 성진우) — протагонист манхвы и ранобе «Поднятие уровня в одиночку» (кор. «나 혼자만 레벨업»). Ранее был известен как "Самый слабый охотник в мире", но после перепробуждения и становления "игроком" прошел путь становления самым сильным охотником в мире. </p>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<img src="source/z4.webp" class="card-img-top" alt="CardLogo">
+					<div class="card-body">
+						<h5 class="card-title">Кан - Эпоха Сверхлюдей</h5>
+						<p class="card-text">Главный герой ученик школы по имени Кан, который так же является супергероем Белая Кепка.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<img src="source/z5.webp" class="card-img-top" alt="CardLogo">
+					<div class="card-body">
+						<h5 class="card-title">Со Джи У - Элисед</h5>
+						<p class="card-text">Старшеклассник. Все своё детство сторонился людей из-за своей особенности. А всё потому, что он способен быстро перемещаться за короткий промежуток времени. Даже мать настороженно относилась к данной силе, наказав никому никогда не рассказывать о ней. Поэтому он и ощущал себя в какой-то степени прокажённым. Шло время, а ничего не менялось. Первым его другом стал кот. Так и повелось, что перед школой и после он обязательно ходил кормить бездомных котов. Жизнь была однотонной, пока он не встретил Кайдена.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<img src="source/z6.webp" class="card-img-top" alt="CardLogo">
+					<div class="card-body">
+						<h5 class="card-title">Баам - Башня бога</h5>
+						<p class="card-text">Полное имя -Двадцать Пятый Баам. Протагонист манхвы, молодой парень с короткими каштановыми волосами и золотистыми глазами. Являющийся Незаконным, вошедшим в Башню вслед за своей подругой, Рахиль, на тот момент ничего не знал о мире Башни и его обитателях.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<img src="source/z7.jpg" class="card-img-top" alt="CardLogo">
+					<div class="card-body">
+						<h5 class="card-title">Кан Хан Су - Ублюдок FFF-ранга</h5>
+						<p class="card-text"></p>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<img src="source/z8.jpg" class="card-img-top" alt="CardLogo">
+					<div class="card-body">
+						<h5 class="card-title">Хёнсу Ча - Милый дом</h5>
+						<p class="card-text">Старшеклассник, заражённый монстеризацией. Он борется не только со своей мутацией, но и с монстрами, которые захватили мир. Его любимым оружием является электрическое копье, работающее от батареи, которую он носит в рюкзаке.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<footer class="py-3 my-4">
+				<ul class="nav justify-content-center border-bottom pb-3 mb-3 pt-3 border-top">
+					<li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Статья</a></li>
+					<li class="nav-item"><a href="statistic.html" class="nav-link px-2 text-muted">Статистика</a></li>
+					<li class="nav-item"><a href="notes.html" class="nav-link px-2 text-muted">Заметки</a></li>
+				</ul>
+				<p class="text-center text-muted"><a name="footer"></a>©vilik4pok</p>
+			</footer>
+		</div>
+		<script>
+			$( "#sortable" ).sortable();
+			$( "#sortable" ).disableSelection();
+		</script>
+	</body>
+</html>
